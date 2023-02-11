@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" type="text/css" href="output.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pacific Island Reservations</title>
+</head>
+
+<body>
+  <!-- <div id="app"></div> -->
+  <script type="module" src="/main.js"></script>
+  <!-- This example requires Tailwind CSS v3.0+ -->
+  <div class="isolate bg-slate-300" style="height:100%">
+    <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
+      <svg
+        class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
+        viewBox="0 0 1155 678" xmlns="http://www.w3.org/2000/svg">
+        <path fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)" fill-opacity=".3"
+          d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
+        <defs>
+          <linearGradient id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533" x1="1155.49" x2="-78.208" y1=".177" y2="474.645"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9089FC" />
+            <stop offset="1" stop-color="#FF80B5" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div id="hero">
+      <div class="px-6 pt-6 lg:px-8">
+        <nav class="flex items-center justify-between" aria-label="Global">
+          <div class="flex lg:flex-1">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Pacific Islands Reservations</span>
+              <img class="h-8" src="./img/hibiscus.png" alt="">
+            </a>
+            <span class="text-gray-700 pl-2 pt-1" style="display:inline">Pacific Islands Reservations</span>
+          </div>
+          <div class="flex lg:hidden">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Open main menu</span>
+              <!-- Heroicon name: outline/bars-3 -->
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="hidden lg:flex lg:gap-x-12">
+            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Explore Guide</a>
+
+            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Vacation Rentals</a>
+
+            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Reviews</a>
+
+            <a href="#" class="text-md font-semibold leading-6 text-gray-900">About</a>
+            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Contact</a>
+
+          </div>
+          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Book with us <span
+                aria-hidden="true">&rarr;</span></a>
+          </div>
+
+        </nav>
+        <div class="text-center mt-56">
+          <h2 class="text-xl font-thin-tracking-light text-white drop-shadow-xl
+      sm:text-4xl">Welcome To A World Of Luxury</h2>
+          <p class="text-4xl font-thin-tracking-light text-slate-100 drop-shadow-2xl sm:text-6xl"
+            style="letter-spacing: 15px;">HAWAI'I</p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#"
+              class="rounded-md bg-red-700 px-3.5 py-1.5 text-base font-semibold leading-7 text-white drop-shadow-md hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">View
+              all vacation rentals</a>
+            <a href="#" class="text-base font-semibold leading-7 text-gray-900">Book with us<span
+                aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile menu, show/hide based on menu open state. -->
+      <div role="dialog" aria-modal="true">
+        <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+          <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Pacific Islands Reservations</span>
+              <img class="h-8" src="./img/hibiscus.png" alt="">
+            </a>
+            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Close menu</span>
+              <!-- Heroicon name: outline/x-mark -->
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-500/10">
+              <div class="space-y-2 py-6">
+                <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Explore
+                  Guide</a>
+
+                <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Vacation
+                  Rentals</a>
+
+                <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Reviews</a>
+
+                <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">About</a>
+
+                <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Contact</a>
+              </div>
+              <div class="py-6">
+                <a href="#"
+                  class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Book
+                  with us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div>
+        <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <h2 class="text-2xl font-medium tracking-tight text-gray-900">Explore our most popular rentals</h2>
+
+          <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            <!--- One -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/ocean-estate.jpg" alt="Ocean Estate"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Ocean Estate
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Koko Head, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$Call for pricing</p>
+              </div>
+            </div>
+            <!-- Two -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/kailua.jpg" alt="Lanikai Hale Beachfront"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Lanikai Hale Beachfront
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Lanikai, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$1,350/night</p>
+              </div>
+            </div>
+            <!-- Three -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/lanikai.jpeg" alt="Lanikai Rental"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Lanikai Hideaway
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Lanikai, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$Call for pricing</p>
+              </div>
+            </div>
+            <!-- Four -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/hawaii-kai-ohana.jpg" alt="Hawai'i Kai Ohana Property"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Hawai'i Kai Ohana Vacation </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Hawai'i Kai, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$535/night</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+
+          <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            <!--- One -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/ocean-estate.jpg" alt="Ocean Estate"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Ocean Estate
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Koko Head, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$Call for pricing</p>
+              </div>
+            </div>
+            <!-- Two -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/kailua.jpg" alt="Lanikai Hale Beachfront"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Lanikai Hale Beachfront
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Lanikai, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$1,350/night</p>
+              </div>
+            </div>
+            <!-- Three -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/lanikai.jpeg" alt="Lanikai Rental"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Lanikai Hideaway
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Lanikai, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$Call for pricing</p>
+              </div>
+            </div>
+            <!-- Four -->
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
+                <img src="./img/hawaii-kai-ohana.jpg" alt="Hawai'i Kai Ohana Property"
+                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Hawai'i Kai Ohana Vacation </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Hawai'i Kai, O'ahu</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">$535/night</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </main>
+  </div>
+  <div class="bg-slate-300 py-24 sm:py-32 border-t-4 border-t-slate-700">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:text-center">
+        <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Book with us for</h2>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A World Class Experience</p>
+        <p class="mt-6 text-lg leading-8 text-gray-600">Our luxury vacation rentals in Hawaii are located in the most
+          desirable areas, including Waikiki, Kailua, Lanikai, Koko Head, Hawai'i Kai, and on the Big Island.
+        </p>
+        <p class="mt-6 text-lg leading-8 text-gray-600">Each property is carefully selected for its prime location,
+          stunning views, and exceptional amenities. From breathtaking oceanfront villas to spacious beachfront homes,
+          we offer a wide range of options to suit your taste.</p>
+      </div>
+      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xlborder-b-4 border-b-slate-700">
+        <dl class="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-300">
+                <!-- Heroicon name: outline/cloud-arrow-up -->
+                BBB
+              </div>
+              BBB Accredited Business
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Our reputation is everything</dd>
+          </div>
+
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <!-- Heroicon name: outline/lock-closed -->
+                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                </svg>
+              </div>
+              Book a reservation the way you want to
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Book with us directly or through services such as AirBnB,
+              Booking.com, or TripAdvisor. The option is yours!</dd>
+          </div>
+
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <!-- Heroicon name: outline/arrow-path -->
+                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                </svg>
+              </div>
+              Locally owned and operated
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600"></dd>
+          </div>
+
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <!-- Heroicon name: outline/finger-print -->
+                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+                </svg>
+              </div>
+              Hawaiian hospitality
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600"></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!-- Site footer -->
+ 
+<footer class="p-4 sm:p-6 dark:bg-slate-900 px-10 py-10">
+  <div class="md:flex md:justify-between px-5 py-5">
+      <div class="mb-6 md:mb-0">
+          <a href="/" class="flex items-center">
+              <img src="./img/hibiscus.png" class="h-8 mr-3" alt="Pacific Islands Reservations" />
+              <span class="self-center text-xl font-light whitespace-nowrap dark:text-white">Pacific Islands Reservations</span>
+          </a>
+      </div>
+      <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+              <ul class="text-gray-600 dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="/" class="hover:underline">Pacific Islands Reservations</a>
+                  </li>
+                  <li>
+                      <a href="/reservations" class="hover:underline">Reservations</a>
+                  </li>
+              </ul>
+          </div>
+          <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+              <ul class="text-gray-600 dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="/" class="hover:underline ">Facebook</a>
+                  </li>
+                  <li>
+                      <a href="/" class="hover:underline">Instagram</a>
+                  </li>
+              </ul>
+          </div>
+          <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+              <ul class="text-gray-600 dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Privacy Policy</a>
+                  </li>
+                  <li>
+                      <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+  <div class="sm:flex sm:items-center sm:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Pacific Islands Reservations™</a>. All Rights Reserved.
+      </span>
+      <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+              <span class="sr-only">Facebook page</span>
+          </a>
+          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+              <span class="sr-only">Instagram page</span>
+          </a>
+          
+      </div>
+  </div>
+</footer>
+
+</body>
+
+</html>

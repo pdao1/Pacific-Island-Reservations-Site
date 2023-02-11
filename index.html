@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="output.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pacific Island Reservations</title>
 </head>
@@ -14,6 +15,7 @@
 <body>
   <!-- <div id="app"></div> -->
   <script type="module" src="/main.js"></script>
+
   <!-- This example requires Tailwind CSS v3.0+ -->
   <div class="isolate bg-slate-300" style="height:100%">
     <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
@@ -42,10 +44,10 @@
             <span class="text-gray-700 pl-2 pt-1" style="display:inline">Pacific Islands Reservations</span>
           </div>
           <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="open-mobile">
               <span class="sr-only">Open main menu</span>
               <!-- Heroicon name: outline/bars-3 -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" id="open-mobile2"
                 stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
@@ -85,13 +87,13 @@
       </div>
       <!-- Mobile menu, show/hide based on menu open state. -->
       <div role="dialog" aria-modal="true">
-        <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+        <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 hidden" id="mobile-menu">
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Pacific Islands Reservations</span>
               <img class="h-8" src="./img/hibiscus.png" alt="">
             </a>
-            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" id="close-mobile">
               <span class="sr-only">Close menu</span>
               <!-- Heroicon name: outline/x-mark -->
               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -141,7 +143,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/ocean-estate.jpg" alt="Ocean Estate"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -161,7 +163,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/kailua.jpg" alt="Lanikai Hale Beachfront"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -181,7 +183,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/lanikai.jpeg" alt="Lanikai Rental"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -201,7 +203,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/hawaii-kai-ohana.jpg" alt="Hawai'i Kai Ohana Property"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -225,7 +227,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/ocean-estate.jpg" alt="Ocean Estate"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -245,7 +247,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/kailua.jpg" alt="Lanikai Hale Beachfront"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -265,7 +267,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/lanikai.jpeg" alt="Lanikai Rental"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -285,7 +287,7 @@
               <div
                 class="min-h-80 aspect-w-16 aspect-h-11 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 aspect-video lg:h-50 shadow-md">
                 <img src="./img/hawaii-kai-ohana.jpg" alt="Hawai'i Kai Ohana Property"
-                  class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  class="object-cover object-center lg:h-full lg:w-full">
               </div>
               <div class="mt-4 flex justify-between">
                 <div>
@@ -444,7 +446,14 @@
       </div>
   </div>
 </footer>
-
+<script>
+  $('#open-mobile').on('click',function(){
+    $('#mobile-menu').show()
+  })
+  $('#close-mobile').on('click',function(){
+    $('#mobile-menu').hide()
+  })
+</script>
 </body>
 
 </html>

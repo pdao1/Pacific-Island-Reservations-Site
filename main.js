@@ -1,3 +1,4 @@
 import tailwindcss from 'tailwindcss'
 
-// document.querySelector('#app').innerHTML
+// const root = ReactDOM.createRoot(document.getElementById('app'));
+// root.render();

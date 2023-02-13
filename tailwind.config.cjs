@@ -2,7 +2,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ["./**/*.{html,js,jsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -12,5 +12,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
+    require('daisyui'),
   ],
 }

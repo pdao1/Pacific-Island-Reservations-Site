@@ -42,13 +42,17 @@
     <div id="hero">
       <div class="px-6 pt-6 lg:px-8">
         <nav class="flex items-center justify-between" aria-label="Global">
-          <div class="flex lg:flex-1">
+          <div class="flex items-center lg:flex-1">
             <a href="/" class="-m-1.5 p-1.5">
-              <span class="sr-only">Pacific Islands Reservations</span>
-              <img class="h-8" src="./img/hibiscus.png" alt="">
+                <img class="logo" src="./img/logo/logotext.png" alt="">
+                <!-- <strong>
+                    <h1 class="text-xl text-gray-700 -m-1.5 p-1.5" style="display:inline">Cat People of Oahu</h1>
+                </strong> -->
             </a>
-            <span class="text-gray-700 pl-2 pt-1" style="display:inline">Pacific Islands Reservations</span>
-          </div>
+        </div>
+        
+         
+      
           <div class="flex lg:hidden">
             <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="open-mobile">
               <span class="sr-only">Open main menu</span>
@@ -60,33 +64,29 @@
           </div>
 
           <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Explore Guide</a>
-            <a href="/vacation-rentals" class="text-md font-semibold leading-6 text-gray-900">Vacation Rentals</a>
-            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Reviews</a>
-            <a href="#" class="text-md font-semibold leading-6 text-gray-900">About</a>
-            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Contact</a>
-            <label for="add-property" class="logged-in text-md font-semibold leading-6 text-gray-900" id="add-property-nav">Create Property Listing</label>
-            <label for="login-modal" id="login-nav" class="logged-out text-md font-semibold leading-6 text-gray-900">Login</label>
-            <a href="#logout" id="logout" class="logged-in text-md font-semibold leading-6 text-gray-900">Logout</a>
-            <!-- <span class="logged-in account-details"></span> -->
+            <a href="#" class="text-xl font-semibold leading-6 text-gray-900">Home</a>
+            <a href="#" class="text-xl font-semibold leading-6 text-gray-900">About</a>
+            <a href="#" class="text-xl font-semibold leading-6 text-gray-900">Adoptions</a>
+            <a href="#" class="text-xl font-semibold leading-6 text-gray-900">Knowledge Base/FAQ</a>
+            <a href="#" class="text-xl font-semibold leading-6 text-gray-900">Donate</a>
+            <a href="#" class="text-xl font-semibold leading-6 text-gray-900">Contact Us</a>
           </div>
           <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" class="text-md font-semibold leading-6 text-gray-900">Book with us <span
+            <a href="#" class="text-xl font-semibold leading-6 text-gray-900 mr-3">Facebook Group<span
                 aria-hidden="true">&rarr;</span></a>
           </div>
 
         </nav>
         <div class="text-center mt-56">
           <h2 class="text-xl font-thin-tracking-light text-white drop-shadow-xl
-      sm:text-4xl">Welcome To A World Of Luxury</h2>
-          <p class="text-4xl font-thin-tracking-light text-slate-100 drop-shadow-2xl sm:text-6xl"
-            style="letter-spacing: 15px;">HAWAI'I</p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
+      sm:text-4xl"></h2>
+          <p class="text-3xl font-thin-tracking-light text-slate-100 sm:text-6xl" id="hero-text"
+            style="letter-spacing: 15px;">CAT PEOPLE OF O'AHU</p>
+          <!-- <div class="mt-10 flex items-center justify-center gap-x-6">
             <a href="#"
-              class="rounded-md bg-red-700 px-3.5 py-1.5 text-base font-semibold leading-7 text-white drop-shadow-md hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">View
-              all vacation rentals</a>
-            <a href="#" class="text-base font-semibold leading-7 text-gray-900">Book with us<span
-                aria-hidden="true">→</span></a>
+              class="rounded-md bg-red-700 px-3.5 py-1.5 text-base font-semibold leading-7 text-white drop-shadow-md hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"></a> -->
+            <!-- <a href="#" class="text-base font-semibold leading-7 text-gray-900">Facebook Group - Join the Discussion!<span
+                aria-hidden="true">→</span></a> -->
           </div>
         </div>
       </div>
@@ -95,8 +95,8 @@
         <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 hidden" id="mobile-menu">
           <div class="flex items-center justify-between">
             <a href="/" class="-m-1.5 p-1.5">
-              <span class="sr-only">Pacific Islands Reservations</span>
-              <img class="h-8" src="./img/hibiscus.png" alt="">
+              <span class="sr-only">Cat People of Oahu</span>
+              <img class="h-10" src="./img/logo/logo.png" alt="">
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" id="close-mobile">
               <span class="sr-only">Close menu</span>
@@ -111,29 +111,29 @@
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
                 <a href="#"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Explore
-                  Guide</a>
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Home</a>
 
-                <a href="/vacation-rentals"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Vacation
-                  Rentals</a>
-
-                <a href="#"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Reviews</a>
 
                 <a href="#"
                   class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">About</a>
 
                 <a href="#"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Contact</a>
-                  <label for="login-modal" class="btn" id="login-nav-mobile">Login</label>
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Adoptions</a>
 
+                <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Knowledge Base/FAQ</a>
+              
+                  <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Donate</a>
+                 
+                  <a href="#"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Contact Us</a>
+                
 
                 </div>
               <div class="py-6">
                 <a href="#"
-                  class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Book
-                  with us</a>
+                  class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Facebook Group</a>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@
     <main>
       <div>
         <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 class="text-2xl font-medium tracking-tight text-gray-900">Explore our most popular rentals</h2>
+          <h2 class="text-2xl font-medium tracking-tight text-gray-900">View Adoptable Cats</h2>
 
           <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             <!--- One -->

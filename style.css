@@ -19,8 +19,9 @@ a {
   color: hsl(204, 81%, 30%);
   text-decoration: inherit;
 }
-a:hover {
+a:hover, .text-md.font-semibold.leading-6.text-gray-900:hover {
   color: #af0202;
+  cursor: pointer;
 }
 
 body {
@@ -114,4 +115,20 @@ main {
 }
 footer {
   height: 100%;
+}
+.input-field {
+  padding: 10px;
+}
+#add-property-form {
+  text-align: end;
+}
+#close-login {
+  float: right;
+}
+
+#logged-in-success, #logged-out-success, #logged-in-error {
+  display: none;
+}
+#property-images, .image-upload {
+  padding: 15px 0;
 }

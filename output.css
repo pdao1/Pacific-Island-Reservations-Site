@@ -421,7 +421,7 @@ video {
 [type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {
   -webkit-appearance: none;
           appearance: none;
-  background-color: #fff;
+  background-color: #212121;
   border-color: #6b7280;
   border-width: 1px;
   border-radius: 0px;
